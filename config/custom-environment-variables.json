@@ -1,0 +1,12 @@
+{
+    "mongodb": {
+        "host": "RGB_DEVICE_MONGODB_HOST",
+        "database": "RGB_DEVICE_MONGODB_DATABASE"
+    },
+    "app": {
+        "port": {
+            "__name": "APP_PORT",
+            "__format": "number"
+        }
+    }
+}

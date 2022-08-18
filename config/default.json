@@ -1,0 +1,9 @@
+{
+    "mongodb": {
+        "host": "localhost",
+        "database": "rgb-device"
+    },
+    "app": {
+        "port": 3000
+    }
+}
