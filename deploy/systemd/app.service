@@ -1,0 +1,14 @@
+[Unit]
+Description=nodejs server app
+After=mongod.service
+
+[Service]
+User=adrian
+#StandardOutput=syslog
+Environment="APP_PORT=3001"
+WorkingDirectory=/home/adrian/rgb-server
+ExecStart=/usr/bin/npm start
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
